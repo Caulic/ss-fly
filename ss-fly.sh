@@ -1,5 +1,5 @@
 #! /bin/bash
-# Copyright (c) 2018 flyzy小站
+# Copyright (c) 2018 itzhangbao小站
 
 red='\033[0;31m'
 green='\033[0;32m'
@@ -439,7 +439,7 @@ install() {
                 esac            
                 ssserver -c /etc/shadowsocks.json -d start
         else    
-                echo -e "[${red}错误${plain}] ss服务器安装失败，请联系flyzy小站（https://www.itzhangbao.com）"
+                echo -e "[${red}错误${plain}] ss服务器安装失败，请联系itzhangbao小站（https://www.itzhangbao.com）"
                 cleanup
                 exit 1
         fi      
@@ -474,7 +474,7 @@ case $1 in
 		exit 0;
 		;;
 	-v|v|version )
-		echo 'ss-fly Version 1.0, 2018-01-20, Copyright (c) 2018 flyzy2005'
+		echo 'ss-fly Version 1.0, 2018-01-20, Copyright (c) 2018 itzhangbao'
 		exit 0;
 		;;
 esac
